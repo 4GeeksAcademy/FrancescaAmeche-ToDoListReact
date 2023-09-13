@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Indie+Flower&family=Shadows+Into+Light&family=The+Girl+Next+Door&family=Ubuntu+Mono&display=swap');
+
+
 body {
     background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "The Girl Next Door", sans-serif;
+    font-weight: bold;
 }
 
 h1 {
@@ -13,7 +18,7 @@ h1 {
 .list {
     height: 700px;
     width: 700px;
-    background-color: lavender;
+    background-color: #AAE3E2;
     margin: auto;
     margin-top: 100px;
 }
@@ -27,6 +32,8 @@ li {
     border-radius: 10px;
     display: flex;
     position: relative;
+    background-color: lavender;
+    font-size: large;
 }
 
 p {
@@ -41,4 +48,5 @@ button {
     margin-right: 20px;
     margin-bottom: 5px;
     border: none;
+    background-color: lavender;
 }
